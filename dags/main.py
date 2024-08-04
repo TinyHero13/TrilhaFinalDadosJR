@@ -31,7 +31,7 @@ with DAG(
     default_args=default_args,
     description='Pipeline que pega os dados respondidos no formulário do Codigo Certo, faz um tratamento e joga no BigQuery',
     start_date=datetime(2024, 8, 2, 1),
-    schedule_interval=timedelta(hours=3), # De 1 em 1 hora
+    schedule_interval=timedelta(hours=3), # De 3 em 3 horas
     concurrency=1,
     max_active_runs=1 
 ) as dag:
