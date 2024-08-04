@@ -13,7 +13,7 @@ Utilizei Python e Pandas para extrair os arquivos de CSV que estão na pasta dat
 ![alt text](./imgs/image.png)
 
 ### DAG no airflow
-![alt text](./imgs/image-1.png)
+![alt text](./imgs/image1.png)
 
 # Queries que foram utilizadas no BigQuery:
 ### Para criação das tabelas
@@ -61,6 +61,18 @@ CREATE TABLE `trilhajrprojeto.codigocertodados.dim_user` (
   nome_completo STRING
 );
 ```
+
+### Query com a fato e dimensões no Bigquery:
+![alt text](./imgs/image3.png)
+
+#### Algumas queries no Bigquery
+- Contagem de linhas
+
+![alt text](./imgs/image4.png)
+
+- Media de horas dedicadas por pessoas
+
+![alt text](./imgs/image5.png)
 
 # Respondendo as perguntas
 P: Nossa infraestrutura de dados está impactando a performance da análise de feedbacks. Como você redesenharia a arquitetura para melhorar a eficiência?
