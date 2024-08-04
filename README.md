@@ -5,6 +5,7 @@ Tecnologias utilizadas para o desafio:
 - Pandas
 - BigQuery
 - Airflow
+- Docker
 
 O processo de ETL (Extract, Transform, Load) consistiu em:
 Utilizei Python e Pandas para extrair os arquivos de CSV que estão na pasta data. Dessa forma, se futuramente novos dados forem adicionados ou removidos, eles serão considerados no processo. Pensando na modelagem dimensional, utilizei o esquema estrela, pois havia poucas dimensões, o que otimiza a consulta e a análise. O carregamento dos dados foi realizado no Google BigQuery.
